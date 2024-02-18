@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="heading">
+      <p class="para" style="color: white">Rock Paper Scissor</p>
+    </div>
+    <div class="images">
+      <div>
+        <img src="Image/rock.png" alt="" id="rock" />
+      </div>
+      <div>
+        <img src="Image/paper.png" alt="" id="paper" />
+      </div>
+      <div>
+        <img src="Image/scissors.png" alt="" id="scissors" />
+      </div>
+    </div>
+    <div class="para" id="result">
+      <p>Pick Your Move</p>
+    </div>
+    <div class="score">
+      <div id="user" class="para">
+        <p id="user-score">0</p>
+        <p>You</p>
+      </div>
+      <div id="computer" class="para">
+        <p id="comp-score">0</p>
+        <p>Comp</p>
+      </div>
+    </div>
+    <audio id="background-music">
+      <source src="./Music/BgMusic.mp3" type="audio/mp3" />
+    </audio>
+    <script src="app.js"></script>
+  </body>
+</html>
